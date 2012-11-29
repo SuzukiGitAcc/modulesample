@@ -1,19 +1,19 @@
-ãƒ“ãƒ«ãƒ‰æ‰‹é †
-ï¼ˆè¦ï¼‰linphone-android
-linphone-androidã‚’ãƒ“ãƒ«ãƒ‰å¾Œã€libs/armeabiã€libs/armeabi-v7aã€ã‚’modulesample/ndklibã«ã‚³ãƒ”ãƒ¼
-libs/aXMLRPC.jarã‚’modulesampleã®libã«ã‚³ãƒ”ãƒ¼
-.soãƒ©ã‚¤ãƒ–ãƒ©ãƒªã®æ›´æ–°ãªã‘ã‚Œã°æ—¢å­˜ã®ã‚‚ã®ã§OK
+ƒrƒ‹ƒhè‡
+i—vjlinphone-android
+linphone-android‚ğƒrƒ‹ƒhŒãAlibs/armeabiAlibs/armeabi-v7aA‚ğmodulesample/ndklib‚ÉƒRƒs[
+libs/aXMLRPC.jar‚ğmodulesample‚Ìlib‚ÉƒRƒs[
+.soƒ‰ƒCƒuƒ‰ƒŠ‚ÌXV‚È‚¯‚ê‚ÎŠù‘¶‚Ì‚à‚Ì‚ÅOK
 
-ã‚¿ãƒ¼ãƒŸãƒŠãƒ«ã‹ã‚‰modulesampleã¸ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªç§»å‹•
-ä»¥ä¸‹å®Ÿè¡Œ
+ƒ^[ƒ~ƒiƒ‹‚©‚çmodulesample‚ÖƒfƒBƒŒƒNƒgƒŠˆÚ“®
+ˆÈ‰ºÀs
 sh ./build.sh
 
-distãƒ•ã‚©ãƒ«ãƒ€ã«ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã®zipãƒ•ã‚¡ã‚¤ãƒ«ãŒä½œæˆã•ã‚Œã‚‹
+distƒtƒHƒ‹ƒ_‚Éƒ‚ƒWƒ…[ƒ‹‚Ìzipƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚é
 
-linphoneãƒ©ã‚¤ãƒ–ãƒ©ãƒªå¤‰æ›´ç‚¹
+linphoneƒ‰ƒCƒuƒ‰ƒŠ•ÏX“_
 121030 ./submodule/linphone/coreapi/linphnecore.c L1861
-å—ä¿¡æ™‚ã®ã‚¿ã‚¤ãƒ ã‚¢ã‚¦ãƒˆã‚’ãªãã™
+óM‚Ìƒ^ƒCƒ€ƒAƒEƒg‚ğ‚È‚­‚·
 
 121121 ./submodules/linphone/mediastreamer2/src/msspeex.c L573, L578
-speexã®ãƒ‡ã‚³ãƒ¼ãƒ‰æ™‚éŸ³é‡ä¸‹ã’ã‚‹
+speex‚ÌƒfƒR[ƒh‰¹—Ê‰º‚°‚é
 
