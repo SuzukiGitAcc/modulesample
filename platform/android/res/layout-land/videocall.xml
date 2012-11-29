@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <org.linphone.mediastream.video.display.GL2JNIView
+            android:id="@+id/video_surface"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp">
+        </org.linphone.mediastream.video.display.GL2JNIView>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="88dip"
+            android:layout_height="72dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/video_muted" />
+
+        <SurfaceView
+            android:id="@+id/video_capture_surface"
+            android:layout_width="88dip"
+            android:layout_height="72dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/QoS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/stat_sys_signal_0" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/useFrontCamera"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="カメラ切り替え" />
+ 
+<!--            <Button
+                android:id="@+id/resolution"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="低画質" />
+-->
+            <Button
+                android:id="@+id/spekerStateButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="スピーカー" />
+            <Button
+                android:id="@+id/enableCamera"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="映像なし" />
+            <Button
+                android:id="@+id/terminalCallButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="通話終了" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
